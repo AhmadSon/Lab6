@@ -16,7 +16,7 @@
 # Sub Rutin / Fungsi
 
 ## Tugas Pratikum
-![Gambar 00](Image/TPratikkum.PNG)
+![Gambar 00](Image/TPratikum.PNG)
 
 ### Flowchart
 
