@@ -15,6 +15,41 @@
 
 # Sub Rutin / Fungsi
 
+## Tugas Latihan
+![Gambar 03](Image/TLatihan.PNG)
+
+### Codingan
+```bash
+import math
+
+def a(x):
+    return x**2
+    a = lambda x : x ** 2
+print(a(2))
+
+def b(x, y):
+    return math.sqrt(x**2 + y**2)
+    b = lambda x, y : x ** 2  + y ** 2
+print(b(2, 2))
+
+def c(*args):
+    return sum(args)/len(args)
+    c = lambda *args : sum(args)/len(args)
+print(c(5, -1, 8, 19))
+
+def d(s):
+    return "".join(set(s))
+    d = lambda s: "".join(set(s))
+print(d("Jenab"))
+```
+
+### Penjelasan TLatihan
+- Untuk memperluas daftar fungsi matematika gunakan `import math`<p>
+- Fungsi lambda yang menggunakan variable a-d<p>
+
+### Hasil Program
+![Gambar 04](Image/HLatihan.PNG)
+
 ## Tugas Pratikum
 ![Gambar 00](Image/TPratikum.PNG)
 
